@@ -9,31 +9,33 @@
     <title>Contact</title>
 </head>
 <body class="font-work-sans">
-    <div class="bg-black-light">
-        <div id="nav" class="h-36 shadow-2xl bg-white w-full px-8 md:px-48">
-            <div class="pt-14 w-1/2 inline-block uppercase">Pine Primary Arts</div>
-            <button class="mt-12 text-5xl float-right inline-block focus:outline-none"><i class="fas fa-bars" id="navigator"></i></button>
-        </div>
-        <div class="min-w-full fixed inset-0 bg-logo hidden" id="navigationItem">
-            <div id="nav" class="h-36 w-full px-8 md:pl-48 md:pr-52">
-                <div class="pt-14 w-1/2 inline-block">Site Name</div>
-                <button class="mt-12 text-5xl float-right inline-block focus:outline-none"><i class="fas fa-times" id="navigatorClose"></i></button>
+    <div id="display-section" class="bg-black-light">
+        <div id="navigation">
+            <div id="nav" class="h-36 shadow-2xl bg-white w-full px-8 md:px-48">
+                <div class="pt-14 w-1/2 inline-block uppercase">Pine Primary Arts</div>
+                <button class="mt-12 text-5xl float-right inline-block focus:outline-none"><i class="fas fa-bars" id="navigator"></i></button>
             </div>
-            <div class="text-center md:mt-32 mt-16">
-                <ul class="space-y-8">
-                    <li>
-                        <h1 class="text-white text-6xl font-bold">Home</h1>
-                    </li>
-                    <li>
-                        <h1 class="text-white text-6xl font-bold">About</h1>
-                    </li>
-                    <li>
-                        <h1 class="text-white text-6xl font-bold">Blogs</h1>
-                    </li>
-                    <li>
-                        <h1 class="text-white text-6xl font-bold">Contact</h1>
-                    </li>
-                </ul>
+            <div class="min-w-full fixed inset-0 bg-logo hidden" id="navigationItem">
+                <div id="nav" class="h-36 w-full px-8 md:pl-48 md:pr-52">
+                    <div class="pt-14 w-1/2 inline-block uppercase">Pine Primary Arts</div>
+                    <button class="mt-12 text-5xl float-right inline-block focus:outline-none"><i class="fas fa-times" id="navigatorClose"></i></button>
+                </div>
+                <div class="text-center md:mt-32 mt-16">
+                    <ul class="space-y-8">
+                        <li>
+                            <h1 class="text-white text-6xl font-bold">Home</h1>
+                        </li>
+                        <li>
+                            <h1 class="text-white text-6xl font-bold">About</h1>
+                        </li>
+                        <li>
+                            <h1 class="text-white text-6xl font-bold"><a href="blogs.html">Blogs</a></h1>
+                        </li>
+                        <li>
+                            <h1 class="text-white text-6xl font-bold">Contact</h1>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="mx-auto md:py-64 py-56 text-left w-212"> <!-- contact wraper -->
@@ -58,36 +60,36 @@
                     <div class='w-full md:w-1/2'>
                         <div class="form-group">
                             <label for="name">Your Name</label>
-                            <div class="flex border-gray border-solid border px-2.5 rounded-lg" id="name-div">
-                                <i class="fas fa-user-circle text-gray-500 pr-2.5 pt-2.5 text-lg" id="name-logo"></i>
+                            <div class="flex border-gray-light border-solid border px-2.5 rounded-lg" id="name-div">
+                                <i class="fas fa-user-circle text-gray-light pr-2.5 pt-2.5 text-lg" id="name-logo"></i>
                                 <input type="text" name="fullname" id="fullname" class="w-full h-10 focus:outline-none">
                             </div>
                         </div>
                         <div class="form-group mt-7">
                             <label for="mail">Mail</label>
-                            <div class="flex border-gray border-solid border px-2.5 rounded-lg" id="mail-div">
-                                <i class="far fa-envelope text-gray-500 pr-2.5 pt-2.5 text-lg" id="mail-logo"></i>
+                            <div class="flex border-gray-light border-solid border px-2.5 rounded-lg" id="mail-div">
+                                <i class="far fa-envelope text-gray-light pr-2.5 pt-2.5 text-lg" id="mail-logo"></i>
                                 <input type="email" name="mail" id="mail" class="w-full h-10 focus:outline-none">
                             </div>
                         </div>
                         <div class="form-group mt-7">
                             <label for="subject">Subject</label>
-                            <div class="flex border-gray border-solid border px-2.5 rounded-lg" id="subject-div">
-                                <i class="fas fa-user-circle text-gray-500 pr-2.5 pt-2.5 text-lg" id="subject-logo"></i>
+                            <div class="flex border-gray-light border-solid border px-2.5 rounded-lg" id="subject-div">
+                                <i class="fas fa-user-circle text-gray-light pr-2.5 pt-2.5 text-lg" id="subject-logo"></i>
                                 <input type="text" name="subject" id="subject" class="w-full h-10 focus:outline-none">
                             </div>
                         </div>
                     </div>
                     <div class="w-full md:w-1/2 md:px-7 mt-7 md:mt-0">
                         <label for="message">Message</label>
-                        <textarea type="text" name="subject" id="subject" class="w-full h-60 border-gray rounded-lg p-2 border-solid border focus:outline-none focus:border-logo"></textarea>
+                        <textarea type="text" name="subject" id="subject" class="w-full h-60 border-gray-light rounded-lg p-2 border-solid border focus:outline-none focus:border-logo"></textarea>
                     </div>
                 </div>
                 <center><button class="bg-logo text-white px-12 py-4 mt-12 hover:bg-white hover:text-logo">Send Message</button></center>
             </div>
         </div>
     </div>
-    <div class="w-72 my-12 h-32 mx-auto text-center">
+    <div id="footer" class="w-72 my-12 h-32 mx-auto text-center">
         <div id="social">
             <div class="rounded-full border-black w-8 h-8 ml-10 mr-5 border-solid border hover:bg-black hover:text-white inline-block">
                 <i class="fab fa-facebook-f mx-2.5 my-1.5 text-lg"></i>

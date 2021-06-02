@@ -2,33 +2,43 @@
 @import url('style.css');
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
 
+
+.font-work-sans{
+  font-family: 'Work Sans'
+}
 .w-212 {
-    width: 844px;
+  width: 844px;
+}
+.w-265 {
+  width:1060px;
+}
+.h-131 {
+  height:524px;
 }
 .text-gray {
     color:gray
 }
+.text-small {
+  font-size: 4px;
+}
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+} 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 
 @media only screen and (max-width: 600px) {
-    .w-212 {
-        width: 92%;
-    }
+  .w-212 {
+    width: 92%;
+  }
 }
