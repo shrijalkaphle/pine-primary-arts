@@ -5,6 +5,9 @@
 .w-212 {
     width: 844px;
 }
+.text-gray {
+    color:gray
+}
 
 @media only screen and (max-width: 600px) {
     .w-212 {
