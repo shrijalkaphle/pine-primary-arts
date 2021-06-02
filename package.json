@@ -1,0 +1,17 @@
+{
+  "name": "pine-primary-arts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/assets/css/style.css",
+    "watch-sass": "sass --watch public/assets/sass:public/assets/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "tailwindcss": "^2.1.2"
+  }
+}
