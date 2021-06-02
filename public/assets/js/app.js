@@ -24,3 +24,12 @@ $('#subject').on('focusout', function() {
     $('#subject-div').removeClass('border-logo text-logo')
     $('#subject-logo').removeClass('text-logo')
 })
+
+$('#navigator').on('click', function() {
+    $('#navigationItem').toggle()
+    $(document.body).toggleClass('overflow-hidden')
+})
+$('#navigatorClose').on('click', function() {
+    $('#navigationItem').toggle()
+    $(document.body).toggleClass('overflow-hidden')
+})
