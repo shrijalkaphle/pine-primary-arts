@@ -33,3 +33,20 @@ $('#navigatorClose').on('click', function() {
     $('#navigationItem').toggle()
     $(document.body).toggleClass('overflow-hidden')
 })
+const marker = document.querySelector('#marker')
+var items = document.querySelectorAll('#navbar a')
+items.forEach(link => {
+    link.addEventListener('click', (e) => {
+        $('#navbar a').css('color','#bbb')
+        link.style.color = 'white'
+        indicator(e.target)
+    })
+})
+
+function indicator(item) {
+    marker.style.top = item.offsetTop + 'px'
+    marker.style.height = item.offsetHeight + 'px'
+}
+
+var dflt = document.querySelector('#default')
+indicator(dflt)

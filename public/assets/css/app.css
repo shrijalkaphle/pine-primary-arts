@@ -2,6 +2,18 @@
 @import url('style.css');
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
 
+html {
+	scroll-behavior: smooth;
+}
+#marker{
+  position: absolute;
+  height: 0;
+  width: 4px;
+  background: #fff;
+  left: 15px;
+  transition: 0.5s;
+  border-radius: 4px;
+}
 .font-work-sans{
   font-family: 'Work Sans'
 }
@@ -11,17 +23,28 @@
 .w-265 {
   width:1060px;
 }
+.h-179 {
+  height: 716px;
+}
 .h-131 {
   height:524px;
 }
 .h-262 {
-  height:1048px;
+  height:1049px;
 }
 .text-gray {
     color:gray
 }
 .text-gray-dark {
   color: #AAAAAA
+}
+.text-gray-bbb {
+  color: #bbbbbb
+}
+.active {
+  color: #fff;
+  border-left: 4px solid #bbbbbb;
+  transition: .3s;
 }
 .text-gray-light {
   color: #373737
