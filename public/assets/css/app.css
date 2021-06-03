@@ -18,6 +18,24 @@
 .text-gray {
     color:gray
 }
+.text-gray-dark {
+  color: #AAAAAA
+}
+.text-gray-light {
+  color: #373737
+}
+.facebook {
+  color:#4267B2
+}
+.twitter {
+  color: #00ACEE
+}
+.linkedin {
+  color: #0E76A8
+}
+.instagram {
+  color: #fbad50
+}
 .text-small {
   font-size: 4px;
 }
