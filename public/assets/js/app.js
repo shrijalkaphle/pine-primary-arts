@@ -48,5 +48,28 @@ function indicator(item) {
     marker.style.height = item.offsetHeight + 'px'
 }
 
-var dflt = document.querySelector('#default')
+var dflt = document.querySelector('#cdp-link')
 indicator(dflt)
+
+$(window).scroll(function () {
+    var cdpoffset = $("#cdp").offset().top;
+    var cdplink = document.querySelector('#cdp-link')
+    var artoffset = $("#art-clubs").offset().top;
+    var artlink = document.querySelector('#art-link')
+    var counsuloffset = $("#cdp-consulting").offset().top;
+    var counsullink = document.querySelector('#consulting-link')
+    var yearoffset = $("#year6").offset().top;
+    var yearlink = document.querySelector('#year-link')
+    if ($(window).scrollTop() >= cdpoffset) {
+        indicator(cdplink)
+    }
+    if ($(window).scrollTop() >= artoffset) {
+        indicator(artlink)
+    }
+    if ($(window).scrollTop() >= counsuloffset) {
+        indicator(counsullink)
+    }
+    if ($(window).scrollTop() >= yearoffset) {
+        indicator(yearlink)
+    }
+});
