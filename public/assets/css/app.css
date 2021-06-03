@@ -2,7 +2,6 @@
 @import url('style.css');
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
 
-
 .font-work-sans{
   font-family: 'Work Sans'
 }
@@ -14,6 +13,9 @@
 }
 .h-131 {
   height:524px;
+}
+.h-262 {
+  height:1048px;
 }
 .text-gray {
     color:gray
@@ -38,6 +40,10 @@
 }
 .text-small {
   font-size: 4px;
+}
+.bg-stars {
+  background-image: url('https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg');
+  background-size: cover;
 }
 ::-webkit-scrollbar {
   width: 10px;
