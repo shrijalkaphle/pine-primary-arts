@@ -1,9 +1,19 @@
 @import url('font.css');
 @import url('style.css');
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
-
-html {
-	scroll-behavior: smooth;
+.site-logo {
+  background-image: url('/assets/images/site-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain
+}
+.site-logo-inverse {
+  background-image: url('/assets/images/site-logo-inverse.png');
+  background-repeat: no-repeat;
+  background-size: contain
+}
+#navigationItem {
+  animation-delay: .5s;
+  z-index: 999;
 }
 #marker{
   position: absolute;
@@ -32,22 +42,12 @@ html {
 .h-262 {
   height:1049px;
 }
-.text-gray {
-    color:gray
-}
-.text-gray-dark {
-  color: #AAAAAA
-}
-.text-gray-bbb {
-  color: #bbbbbb
-}
 .active {
   color: #fff;
-  border-left: 4px solid #bbbbbb;
-  transition: .3s;
 }
-.text-gray-light {
-  color: #373737
+.divend {
+  top: 840px;
+  z-index: 99;
 }
 .facebook {
   color:#4267B2

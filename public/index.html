@@ -11,16 +11,16 @@
 <body class="font-work-sans">
     <div id="header" class="h-262 w-full bg-stars text-white">
         <div id="navigation">
-            <div id="nav" class="h-36 bg-transparent w-full px-8 md:px-48">
-                <div class="pt-14 w-1/2 inline-block uppercase">Pine Primary Arts</div>
+            <div id="nav" class="h-36 bg-transparent w-full px-8 md:px-20 xl:px-48">
+                <div class="pt-14 w-1/2 inline-block uppercase mt-14 site-logo"></div>
                 <button class="mt-12 text-5xl float-right inline-block focus:outline-none"><i class="fas fa-bars" id="navigator"></i></button>
             </div>
-            <div class="min-w-full fixed inset-0 bg-logo hidden" id="navigationItem">
-                <div id="nav" class="h-36 w-full px-8 md:pl-48 md:pr-52">
-                    <div class="pt-14 w-1/2 inline-block uppercase">Pine Primary Arts</div>
+            <div class="min-w-full fixed inset-0 bg-green-primary hidden text-white" id="navigationItem">
+                <div id="nav" class="h-36 w-full px-8 xl:pl-48 md:px-20 xl:pr-52">
+                    <div class="pt-14 w-1/2 inline-block uppercase mt-14 site-logo-inverse"></div>
                     <button class="mt-12 text-5xl float-right inline-block focus:outline-none"><i class="fas fa-times" id="navigatorClose"></i></button>
                 </div>
-                <div class="text-center md:mt-32 mt-16">
+                <div class="text-center xl:mt-32 mt-16">
                     <ul class="space-y-8">
                         <li>
                             <h1 class="text-white text-6xl font-bold"><a href="index.html">Home</a></h1>
@@ -38,20 +38,53 @@
                 </div>
             </div>
         </div>
-        <div class="md:mx-72 md:mt-52 md:text-7xl text-6xl mx-8 mt-6 font-bold text-center">
+        <div class="xl:mx-72 md:px-20 md:mt-52 xl:text-7xl text-5xl mx-8 mt-6 font-bold text-center">
             “If I could say it in words there would be no reason to paint.”
         </div>
-        <div class="text-center mt-16 md:mt-28">
-            <button class="border border-solid border-logo px-5 py-4 hover:bg-logo rounded-lg">Talk to Us Now <i class="fas fa-arrow-right ml-5"></i></button>
+        <div class="text-center mt-16 md:mt-20 xl:mt-28">
+            <button class="border border-solid border-green-primary px-5 py-4 hover:bg-green-primary rounded-lg">Talk to Us Now <i class="fas fa-arrow-right ml-5"></i></button>
         </div>
     </div>
-    <div class="bg-black-light h-179"></div>
-    <div class="md:flex md:px-36 px-8 md:pt-96">
-        <div id="image" class="h-179 md:w-1/2">
-            <img src="https://live.staticflickr.com/4057/4397720327_a0680cf86d_z.jpg" alt="" class="w-full h-full object-cover">
+    <div class="bg-black-default md:mx-48 mx-6 px-3 divend absolute text-white">
+        <div class="md:flex text-center md:text-left">
+            <div class="md:w-3/4 pt-32 md:px-24 font-semibold text-xl md:text-5xl">
+                We have taught 100s of students art and brought their inner artists out.
+            </div>
+            <div class="md:w-1/4 md:mx-16">
+                <div class="grid grid-rows-2 md:my-16 my-6 md:ml-20 grid-flow-col gap-4">
+                    <div>
+                        <p class="font-bold text-2xl text-green-primary">21</p>
+                        <p class="text-gray-secondary text-xl md:pr-8">Years in Operation</p>
+                    </div>
+                    <div class="mt-2">
+                        <p class="font-bold text-2xl text-green-primary">32</p>
+                        <p class="text-gray-secondary text-xl md:pr-8">CDP Sessions</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-2xl text-green-primary">1000+</p>
+                        <p class="text-gray-secondary text-xl">Students Taught</p>
+                    </div>
+                    <div class="mt-2">
+                        <p class="font-bold text-2xl text-green-primary">12</p>
+                        <p class="text-gray-secondary text-xl">Teachers Active</p>
+                    </div>
+                  </div>
+            </div>
         </div>
-        <div class="md:pt-36 md:pl-8 pt-20 md:w-1/2">
-            <p class="uppercase text-logo font-bold text-sm">a message</p>
+        <a href="">
+            <div class="md:mx-16 py-4 px-2 border-b-4 border-solid border-green-primary hover:bg-green-primary inline-block">Learn More</div>
+        </a>
+    </div>
+    <div class="bg-black-light h-179 pt-56 md:px-56">
+        <img src="assets/images/VALUES.png" alt="value" class="w-full">
+    </div>
+    
+    <div class="xl:flex xl:pt-96">
+        <div id="image" class="h-179 xl:w-1/2">
+            <img src="assets/images/pexels-agung-prakoso-bayuadi-2105936 1.png" class="w-full h-full object-scale-down">
+        </div>
+        <div class="xl:pt-36 px-8 pt-20 xl:pr-40 md:px-20 xl:w-1/2 mb-20">
+            <p class="uppercase text-green-primary font-bold text-sm">a message</p>
             <p class="font-bold text-4xl">From the Founder</p>
             <br>
             <p class="text-lg leading-5">
@@ -69,19 +102,19 @@
             </p>
         </div>
     </div>
-    <div class="md:my-14 md:px-44 bg-black-light md:flex ">
-        <div id="navbar" class="md:w-2/5 pt-28 h-full sticky top-0 text-gray-bbb font-bold text-4xl leading-loose hidden md:block">
+    <div class="xl:my-14 xl:px-44 bg-black-light md:flex md:px-20">
+        <div id="navbar" class="xl:w-2/5 pt-28 h-full sticky top-0 text-gray-secondary font-bold text-4xl leading-loose hidden md:block">
             <div id="marker"></div>
-            <a class="block" href="#cdp"><span id="cdp-link" class="pl-20">CDP</span></a>
-            <a class="block" href="#art-clubs"><span id="art-link" class="pl-20">Art Room</span></a>
-            <a class="block" href="#cdp-consulting"><span id="consulting-link" class="pl-20">Counsuling</span></a>
-            <a class="block" href="#year6"><span id="year-link" class="pl-20">Year 6 Play</span></a>
+            <a class="block" href="#cdp"><span id="cdp-link" class="pl-20 navlink">CDP</span></a>
+            <a class="block" href="#art-clubs"><span id="art-link" class="pl-20 navlink">Art Room</span></a>
+            <a class="block" href="#cdp-consulting"><span id="consulting-link" class="pl-20 navlink">Counsuling</span></a>
+            <a class="block" href="#year6"><span id="year-link" class="pl-20 navlink">Year 6 Play</span></a>
         </div>
-        <div class="md:w-3/5 pb-96 px-8">
+        <div class="xl:w-3/5 pb-28 xl:pb-96 px-8">
             <div id="cdp" class="pt-28">
                 <p class="text-white font-bold text-4xl">CDP</p>
                 <br>
-                <p class="text-lg leading-5 text-white mt-8">
+                <p class="text-lg leading-5 text-gray-secondary mt-8">
                     We are all about teachers. That is why we have developed a CPD program that is created specifically with their needs in mind. Here at Pine Primary Arts, 
                     we put the teacher at the forefront of everything we do and equip them with the skills and knowledge they need to be able to teach art and creativity to 
                     their students confidently and enthusiastically. 
@@ -95,7 +128,7 @@
             <div id="result-cdp" class="pt-28">
                 <p class="text-white font-bold text-4xl">Results of CPD </p>
                 <br>
-                <p class="text-lg leading-5 text-white mt-8">
+                <p class="text-lg leading-5 text-gray-secondary mt-8">
                     Our CPD programs are effective. Not only do they enable teachers to think creatively, but through this they also help students to become critical thinkers. 
                     Ultimately, our CPD program creates happier teachers who are better able to connect with all of their students, differentiate their lesson plans and support 
                     each and every one of their students, including those with complex needs.
@@ -106,7 +139,7 @@
             <div id="art-clubs" class="pt-28">
                 <p class="text-white font-bold text-4xl">Art Clubs</p>
                 <br>
-                <p class="text-lg leading-5 text-white mt-8">
+                <p class="text-lg leading-5 text-gray-secondary mt-8">
                     We lead a range of art clubs, including after school enrichment clubs, in primary schools across the country and provide a safe and encouraging space for 
                     those children who would like to explore their creativity outside of the curriculum. Each week, our students expand upon their learning in the classroom and 
                     learn new mediums, methods and ways to express themselves.
@@ -117,7 +150,7 @@
             <div id="cdp-consulting" class="pt-28">
                 <p class="text-white font-bold text-4xl">CPD Consulting</p>
                 <br>
-                <p class="text-lg leading-5 text-white mt-8">
+                <p class="text-lg leading-5 text-gray-secondary mt-8">
                     We are delighted to facilitate Year 6 Productions in schools nationwide. Working with leading professional practitioners in their field, we organise a play 
                     for all Year 6’s full of fun, laughter and entertainment where your students really have a chance to shine. 
                     <br> <br>
@@ -130,7 +163,7 @@
             <div id="year6" class="pt-28">
                 <p class="text-white font-bold text-4xl">Year 6 Productions</p>
                 <br>
-                <p class="text-lg leading-5 text-white mt-8">
+                <p class="text-lg leading-5 text-gray-secondary mt-8">
                     We are delighted to facilitate Year 6 Productions in schools nationwide. Working with leading professional practitioners in their field, we organise a play 
                     for all Year 6’s full of fun, laughter and entertainment where your students really have a chance to shine. 
                     <br> <br>
@@ -143,21 +176,22 @@
         </div>
     </div>
     <div id="footer" class="w-72 my-12 h-32 mx-auto text-center">
-        <div id="social">
-            <div class="rounded-full border-black w-8 h-8 ml-10 mr-5 border-solid border hover:bg-black hover:text-white inline-block">
-                <i class="fab fa-facebook-f mx-2.5 my-1.5 text-lg"></i>
+        <div id="social text-center">
+            <div class="rounded-full border-black w-12 h-12 ml-10 mr-5 border-solid border hover:bg-black hover:text-white inline-block">
+                <i class="fab fa-facebook-f mx-auto my-3 text-lg"></i>
             </div>
-            <div class="rounded-full border-black w-8 h-8 border-solid border hover:bg-black hover:text-white inline-block">
-                <i class="fab fa-instagram mx-1.5 my-1.5 text-lg"></i>
+            <div class="rounded-full border-black w-12 h-12 border-solid border hover:bg-black hover:text-white inline-block">
+                <i class="fab fa-instagram my-3.5 text-lg"></i>
             </div>
-            <div class="rounded-full border-black w-8 h-8 mr-10 ml-5 border-solid border hover:bg-black hover:text-white inline-block">
-                <i class="fab fa-twitter mx-1.5 my-1.5 text-lg"></i>
+            <div class="rounded-full border-black w-12 h-12 mr-10 ml-5 border-solid border hover:bg-black hover:text-white inline-block">
+                <i class="fab fa-twitter my-3.5 text-lg"></i>
             </div>
         </div>
-        <p class="pt-10 text-sm">c 2021 Pine Primary Arts </p>
+        <p class="pt-10 text-sm text-gray-dark">c 2021 Pine Primary Arts </p>
         <span class="text-lg">Privacy Policy | <a href="blogs.html">Blog</a> | <a href="contact.html">Contact</a></span>
     </div>
 </body>
 </html>
 
 <script src="assets/js/app.js"></script>
+<script src="assets/js/scroll.js"></script>
