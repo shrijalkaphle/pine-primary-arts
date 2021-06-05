@@ -25,17 +25,17 @@
   border-radius: 4px;
 }
 .bg-grid-1{
-  background-image: url('/assets/images/grid-1.png');
+  background-image: url('assets/images/grid-1.png');
   background-repeat: no-repeat;
   background-size: cover
 }
 .bg-grid-2{
-  background-image: url('/assets/images/grid-2.png');
+  background-image: url('assets/images/grid-2.png');
   background-repeat: no-repeat;
   background-size: cover
 }
 .bg-grid-3{
-  background-image: url('/assets/images/grid-3.png');
+  background-image: url('assets/images/grid-3.png');
   background-repeat: no-repeat;
   background-size: cover
 }
