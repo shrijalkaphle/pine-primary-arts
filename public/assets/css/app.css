@@ -41,8 +41,9 @@
   background-size: cover
 }
 .grid-link {
-  margin-top: 355px;
-  margin-left: 72px;
+  position: absolute;
+  bottom: 10%;
+  margin-left: 15%;
 }
 .image-grid{
   top: 1500px;
@@ -56,6 +57,13 @@
 }
 .w-265 {
   width:1060px;
+}
+#single-post {
+  margin-bottom: 50px;
+}
+#single-post #image {
+  height: 439px;
+  overflow: hidden;
 }
 .h-179 {
   height: 716px;
@@ -115,4 +123,8 @@
   .w-212 {
     width: 92%;
   }
+  #single-post #image {
+    height:auto
+  }
+  
 }
