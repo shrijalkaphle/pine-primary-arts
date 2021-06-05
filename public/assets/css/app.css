@@ -1,13 +1,14 @@
 @import url('font.css');
 @import url('style.css');
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+@import url('splidejs/splide.min.css');
 .site-logo {
-  background-image: url('/assets/images/site-logo.png');
+  background-image: url('../images/site-logo.png');
   background-repeat: no-repeat;
   background-size: contain
 }
 .site-logo-inverse {
-  background-image: url('/assets/images/site-logo-inverse.png');
+  background-image: url('../images/site-logo-inverse.png');
   background-repeat: no-repeat;
   background-size: contain
 }
@@ -25,17 +26,17 @@
   border-radius: 4px;
 }
 .bg-grid-1{
-  background-image: url('assets/images/grid-1.png');
+  background-image: url('../images/grid-1.png');
   background-repeat: no-repeat;
   background-size: cover
 }
 .bg-grid-2{
-  background-image: url('assets/images/grid-2.png');
+  background-image: url('../images/grid-2.png');
   background-repeat: no-repeat;
   background-size: cover
 }
 .bg-grid-3{
-  background-image: url('assets/images/grid-3.png');
+  background-image: url('../images/grid-3.png');
   background-repeat: no-repeat;
   background-size: cover
 }
