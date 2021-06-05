@@ -24,6 +24,29 @@
   transition: 0.3s;
   border-radius: 4px;
 }
+.bg-grid-1{
+  background-image: url('/assets/images/grid-1.png');
+  background-repeat: no-repeat;
+  background-size: cover
+}
+.bg-grid-2{
+  background-image: url('/assets/images/grid-2.png');
+  background-repeat: no-repeat;
+  background-size: cover
+}
+.bg-grid-3{
+  background-image: url('/assets/images/grid-3.png');
+  background-repeat: no-repeat;
+  background-size: cover
+}
+.grid-link {
+  margin-top: 355px;
+  margin-left: 72px;
+}
+.image-grid{
+  top: 1500px;
+  z-index: 99;
+}
 .font-work-sans{
   font-family: 'Work Sans'
 }
@@ -41,6 +64,9 @@
 }
 .h-262 {
   height:1049px;
+}
+.h-128 {
+  height: 512px;
 }
 .active {
   color: #fff;
