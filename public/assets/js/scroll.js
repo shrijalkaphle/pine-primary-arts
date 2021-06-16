@@ -33,17 +33,17 @@ $(window).scroll(function () {
         $('#cdp-link').addClass('active')
         indicator(cdplink)
     }
-    if ($(window).scrollTop() >= artoffset) {
+    if ($(window).scrollTop() >= artoffset-100) {
         $('.navlink').removeClass('active')
         $('#art-link').addClass('active')
         indicator(artlink)
     }
-    if ($(window).scrollTop() >= counsuloffset) {
+    if ($(window).scrollTop() >= counsuloffset-100) {
         $('.navlink').removeClass('active')
         $('#consulting-link').addClass('active')
         indicator(counsullink)
     }
-    if ($(window).scrollTop() >= yearoffset) {
+    if ($(window).scrollTop() >= yearoffset-100) {
         $('.navlink').removeClass('active')
         $('#year-link').addClass('active')
         indicator(yearlink)
